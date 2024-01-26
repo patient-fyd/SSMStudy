@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="maven-javase-project-01" />
-        <module name="maven-javaee-project-03" />
         <module name="maven-javaee-project-02" />
+        <module name="maven-javase-project-01" />
+        <module name="maven-pom-dependenies-04" />
+        <module name="maven-javaee-project-03" />
       </profile>
     </annotationProcessing>
   </component>
