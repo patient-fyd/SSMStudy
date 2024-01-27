@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--引用和被引用的组件，必须全部在ioc容器-->
+    <!--1. 单个构造参数注入-->
+    <bean id="userDao" class="com.fyd.ioc_02.UserDao"/>
+    <bean id="userService" class="com.fyd.ioc_02.UserService">
+        <!--
+        构造参数传值
+             value= 直接属性值
+             ref = 引用其他的bean
+        -->
+        <constructor-arg ref="userDao"/>
+    </bean>
+
+    <!--2. 多个构造参数注入-->
+    <bean id="userService1" class="com.fyd.ioc_02.UserService">
+        <!--构造参数的顺序填写-->
+        <constructor-arg ref="userDao"/>
+        <constructor-arg value="10"/>
+        <constructor-arg value="fyd"/>
+    </bean>
+
+    <bean id="userService2" class="com.fyd.ioc_02.UserService">
+        <!--构造参数的名字填写，不用顺序-->
+        <constructor-arg name="age" value="10"/>
+        <constructor-arg name="name" value="fyd"/>
+        <constructor-arg name="userDao" ref="userDao"/>
+    </bean>
+    <bean id="userService3" class="com.fyd.ioc_02.UserService">
+        <!--构造参数下角标填写，不用顺序-->
+        <constructor-arg index="1" value="10"/>
+        <constructor-arg index="2" value="fyd"/>
+        <constructor-arg index="0" ref="userDao"/>
+    </bean>
+
+    <!--3. 触发setter方法进行注入-->
+    <bean id="movieFinder" class="com.fyd.ioc_02.MovieFinder"/>
+
+    <bean id="simpleMovieLister" class="com.fyd.ioc_02.SimpleMovieLister">
+        <!-- setter方法，注入movieFinder对象的标识id
+            name = 属性名(调用setter方法的名字)  ref = 引用bean的id值
+        -->
+        <property name="movieFinder" ref="movieFinder"/>
+        <!-- setter方法，注入基本数据类型movieName
+            name = 属性名 value= 基本类型值
+        -->
+        <property name="movieName" value="钢铁侠"/>
+    </bean>
+</beans>
