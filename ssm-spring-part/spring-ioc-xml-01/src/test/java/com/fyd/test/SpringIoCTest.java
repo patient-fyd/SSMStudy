@@ -3,6 +3,7 @@ package com.fyd.test;
 import com.fyd.ioc_03.A;
 import com.fyd.ioc_03.HappyComponent;
 import com.fyd.ioc_04.JavaBean2;
+import com.fyd.ioc_05.JavaBean;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -71,4 +72,17 @@ public class SpringIoCTest {
         // 2. 正常结束ioc容器,才会调用destroy方法
         applicationContext.close();
     }
+
+    @Test
+    public void test_05(){
+        ClassPathXmlApplicationContext applicationContext
+                = new ClassPathXmlApplicationContext("spring-05.xml");
+        JavaBean javaBean = applicationContext.getBean("javaBean", JavaBean.class);
+
+        System.out.println("javaBean = "+javaBean);
+
+        Object bean = applicationContext.getBean("&javaBean");
+        System.out.println("bean = " + bean);
+    }
+
 }
