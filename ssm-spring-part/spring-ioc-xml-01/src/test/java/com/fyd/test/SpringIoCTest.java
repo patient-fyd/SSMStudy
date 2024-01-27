@@ -55,4 +55,14 @@ public class SpringIoCTest {
 
         a.doWork();
     }
+
+    @Test
+    public void test_04(){
+        // 1.创建ioc容器就会进行组件对象的实例化
+        ClassPathXmlApplicationContext applicationContext
+                = new ClassPathXmlApplicationContext("spring-04.xml");
+
+        // 2. 正常结束ioc容器,才会调用destroy方法
+        applicationContext.close();
+    }
 }

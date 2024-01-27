@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21da4322-6a67-4289-8835-ea6e6c5a7744" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-01/src/main/java/com/fyd/ioc_04/JavaBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-01/src/main/resources/spring-04.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-ioc-xml-01/src/test/java/com/fyd/test/SpringIoCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-xml-01/src/test/java/com/fyd/test/SpringIoCTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +17,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -54,7 +57,7 @@
       <recent name="com.fyd.ioc_03" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SpringIoCTest.test_04">
     <configuration name="SpringIoCTest.getBeanFromIoC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-ioc-xml-01" />
       <extension name="coverage">
@@ -71,8 +74,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringIoCTest.test_04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-ioc-xml-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fyd.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fyd.test" />
+      <option name="MAIN_CLASS_NAME" value="com.fyd.test.SpringIoCTest" />
+      <option name="METHOD_NAME" value="test_04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringIoCTest.test_04" />
         <item itemvalue="JUnit.SpringIoCTest.getBeanFromIoC" />
       </list>
     </recent_temporary>
@@ -86,7 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706319977017</updated>
       <workItem from="1706319978036" duration="2157000" />
-      <workItem from="1706325134668" duration="6258000" />
+      <workItem from="1706325134668" duration="8926000" />
     </task>
     <servers />
   </component>
