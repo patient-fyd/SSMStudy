@@ -4,5 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="javabean" class="com.fyd.ioc_04.JavaBean" init-method="init" destroy-method="destroy"/>
+    <bean id="javaBean" class="com.fyd.ioc_04.JavaBean" init-method="init" destroy-method="destroy"/>
+    <!--设置作用域为多例-->
+    <bean id="javaBean2" class="com.fyd.ioc_04.JavaBean2" scope="prototype"/>
 </beans>

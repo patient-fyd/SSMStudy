@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21da4322-6a67-4289-8835-ea6e6c5a7744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-01/src/main/java/com/fyd/ioc_04/JavaBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-01/src/main/resources/spring-04.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ioc-xml-01/src/test/java/com/fyd/test/SpringIoCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-xml-01/src/test/java/com/fyd/test/SpringIoCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-01/src/main/java/com/fyd/ioc_04/JavaBean2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc-xml-01/src/main/resources/spring-04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-xml-01/src/main/resources/spring-04.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +18,8 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -106,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706319977017</updated>
       <workItem from="1706319978036" duration="2157000" />
-      <workItem from="1706325134668" duration="8926000" />
+      <workItem from="1706325134668" duration="9853000" />
     </task>
     <servers />
   </component>
