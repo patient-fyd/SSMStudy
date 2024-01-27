@@ -1,5 +1,8 @@
 package com.fyd.test;
 
+import com.fyd.ioc_03.A;
+import com.fyd.ioc_03.HappyComponent;
+import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -30,7 +33,26 @@ public class SpringIoCTest {
     /**
      * 如何在IoC容器中获取组件Bean
      */
+    @Test
     public void getBeanFromIoC() {
+        // 1. 创建ioc容器对象
+        ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext();
+        applicationContext.setConfigLocations("spring-03.xml");
+        applicationContext.refresh();
 
+        // 2. 从容器中获取组件
+        // 2.1 获取指定id的组件
+        HappyComponent happyComponent = (HappyComponent) applicationContext.getBean("happyComponent");
+
+        // 2.2 根据beanID,同时指定bean的类型
+        HappyComponent happyComponent1 = applicationContext.getBean("happyComponent", HappyComponent.class);
+
+        // 3. 直接根据类型获取
+        //根据类型获取,但是要求,同类型(当前类,或者之类,或者接口的实现类)只能有一个对象交给IoC容器管理
+        // 可以根据接口类型获取值
+        A a = applicationContext.getBean(A.class);
+        //HappyComponent happyComponent2 = applicationContext.getBean(HappyComponent.class);
+
+        a.doWork();
     }
 }

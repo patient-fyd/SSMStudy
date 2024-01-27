@@ -1,7 +1,7 @@
 package com.fyd.ioc_03;
 
 
-public class HappyComponent {
+public class HappyComponent implements A {
 
     //默认包含无参数构造函数
 
