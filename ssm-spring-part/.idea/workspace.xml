@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21da4322-6a67-4289-8835-ea6e6c5a7744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/java/com/fyd/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/resources/spring-01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/test/java/com/fyd/jdbc/JdbcTemplateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +47,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.37878788",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -128,11 +131,17 @@
       <updated>1706319977017</updated>
       <workItem from="1706319978036" duration="2157000" />
       <workItem from="1706325134668" duration="15440000" />
-      <workItem from="1706448354284" duration="971000" />
+      <workItem from="1706448354284" duration="1662000" />
+      <workItem from="1706461825169" duration="774000" />
+      <workItem from="1706507909989" duration="8236000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
