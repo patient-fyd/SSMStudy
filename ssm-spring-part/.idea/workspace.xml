@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21da4322-6a67-4289-8835-ea6e6c5a7744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/java/com/fyd/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/resources/spring-01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/test/java/com/fyd/jdbc/JdbcTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/java/com/fyd/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/java/com/fyd/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/java/com/fyd/dao/impl/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/java/com/fyd/service/ServiceImpl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/java/com/fyd/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/resources/spring-02.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/resources/spring-01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/resources/spring-01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/test/java/com/fyd/jdbc/JdbcTemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/test/java/com/fyd/jdbc/JdbcTemplateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +34,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -36,46 +45,94 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.37878788",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.37878788&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\33275\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="2cbe4408-86d4-440b-8643-bfa5fcd57214" />
+        <option name="reportName" value="ssm-spring-part/qodana/2024-02-01" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\33275\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="2cbe4408-86d4-440b-8643-bfa5fcd57214" reportId="ssm-spring-part/qodana/2024-02-01" />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.fyd.ioc_03" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringIoCTest.test_05">
-    <configuration name="SpringIoCTest.getBeanFromIoC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-ioc-xml-01" />
+  <component name="RunManager" selected="JUnit.JdbcTemplateTest.testForIoC">
+    <configuration name="JdbcTemplateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-ioc-xml-practice-02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fyd.test.*" />
+          <option name="PATTERN" value="com.fyd.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fyd.test" />
-      <option name="MAIN_CLASS_NAME" value="com.fyd.test.SpringIoCTest" />
-      <option name="METHOD_NAME" value="getBeanFromIoC" />
+      <option name="PACKAGE_NAME" value="com.fyd.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.fyd.jdbc.JdbcTemplateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplateTest.testForIoC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-ioc-xml-practice-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fyd.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fyd.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.fyd.jdbc.JdbcTemplateTest" />
+      <option name="METHOD_NAME" value="testForIoC" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplateTest.testQueryAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-ioc-xml-practice-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fyd.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fyd.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.fyd.jdbc.JdbcTemplateTest" />
+      <option name="METHOD_NAME" value="testQueryAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,9 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JdbcTemplateTest.testForIoC" />
+        <item itemvalue="JUnit.JdbcTemplateTest.testQueryAll" />
+        <item itemvalue="JUnit.JdbcTemplateTest" />
         <item itemvalue="JUnit.SpringIoCTest.test_05" />
         <item itemvalue="JUnit.SpringIoCTest.test_04" />
-        <item itemvalue="JUnit.SpringIoCTest.getBeanFromIoC" />
       </list>
     </recent_temporary>
   </component>
@@ -133,12 +192,26 @@
       <workItem from="1706325134668" duration="15440000" />
       <workItem from="1706448354284" duration="1662000" />
       <workItem from="1706461825169" duration="774000" />
-      <workItem from="1706507909989" duration="8236000" />
+      <workItem from="1706507909989" duration="8834000" />
+      <workItem from="1706790494493" duration="3235000" />
+      <workItem from="1706793790151" duration="4685000" />
+      <workItem from="1706798489318" duration="1003000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

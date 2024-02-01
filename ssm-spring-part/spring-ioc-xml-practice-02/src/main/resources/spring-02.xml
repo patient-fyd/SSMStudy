@@ -4,7 +4,7 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!--读取jdbc.properties-->
+    <!--druid-->
     <context:property-placeholder location="classpath:jdbc.properties"/>
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
         <property name="url" value="${fyd.url}"/>
@@ -13,7 +13,23 @@
         <property name="password" value="${fyd.password}"/>
     </bean>
 
+    <!--jdbcTemplate-->
     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
         <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--dao 配置 jdbcTemplate-->
+    <bean id="studentDao" class="com.fyd.dao.impl.StudentDaoImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate"/>
+    </bean>
+
+    <!--service 配置 dao-->
+    <bean id="studentService" class="com.fyd.service.ServiceImpl.StudentServiceImpl">
+        <property name="studentDao" ref="studentDao"/>
+    </bean>
+
+    <!-- controller 配置 service-->
+    <bean id="studentController" class="com.fyd.controller.StudentController">
+        <property name="studentService" ref="studentService"/>
     </bean>
 </beans>

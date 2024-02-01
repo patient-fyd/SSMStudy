@@ -1010,8 +1010,8 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="293" parent="1" name="studb">
-      <IntrospectionTimestamp>2024-01-29.09:17:15</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2024-01-28.17:17:15</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2024-02-02.04:59:11</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2024-02-01.12:59:11</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="294" parent="1" name="mysql.infoschema">
