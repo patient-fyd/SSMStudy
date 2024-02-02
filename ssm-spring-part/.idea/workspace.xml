@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21da4322-6a67-4289-8835-ea6e6c5a7744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/java/com/fyd/ioc_02/JavaBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/java/com/fyd/ioc_03/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/java/com/fyd/ioc_03/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/java/com/fyd/ioc_03/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/resources/spring-03.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/test/java/com/fyd/test/SpringIoCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/test/java/com/fyd/test/SpringIoCTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +21,8 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Interface" />
-        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -69,7 +73,7 @@
       <recent name="com.fyd.ioc_03" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringIoCTest.testIoC_01">
+  <component name="RunManager" selected="JUnit.SpringIoCTest.testIoC_03">
     <configuration name="JdbcTemplateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-ioc-xml-practice-02" />
       <extension name="coverage">
@@ -133,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringIoCTest.test_05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-ioc-xml-01" />
+    <configuration name="SpringIoCTest.testIoC_03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-ioc-annotaion-03" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fyd.test.*" />
@@ -143,7 +147,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.fyd.test" />
       <option name="MAIN_CLASS_NAME" value="com.fyd.test.SpringIoCTest" />
-      <option name="METHOD_NAME" value="test_05" />
+      <option name="METHOD_NAME" value="testIoC_03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringIoCTest.testIoC_03" />
         <item itemvalue="JUnit.SpringIoCTest.testIoC_01" />
         <item itemvalue="JUnit.JdbcTemplateTest.testForIoC" />
         <item itemvalue="JUnit.JdbcTemplateTest.testQueryAll" />
         <item itemvalue="JUnit.JdbcTemplateTest" />
-        <item itemvalue="JUnit.SpringIoCTest.test_05" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +179,7 @@
       <workItem from="1706790494493" duration="3235000" />
       <workItem from="1706793790151" duration="4685000" />
       <workItem from="1706798489318" duration="1678000" />
-      <workItem from="1706855137010" duration="2778000" />
+      <workItem from="1706855137010" duration="5070000" />
     </task>
     <servers />
   </component>
