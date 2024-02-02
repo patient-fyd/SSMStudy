@@ -12,6 +12,7 @@
         <module>spring-ioc-xml-01</module>
         <module>spring-ioc-xml-practice-02</module>
         <module>spring-ioc-annotaion-03</module>
+        <module>spring-ioc-annotation-pracitice-04</module>
     </modules>
 
     <properties>
