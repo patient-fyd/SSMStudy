@@ -53,6 +53,14 @@
             <artifactId>spring-jdbc</artifactId>
             <version>6.0.6</version>
         </dependency>
+
+        <!--JavaX注解-->
+        <dependency>
+            <groupId>jakarta.annotation</groupId>
+            <artifactId>jakarta.annotation-api</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
     </dependencies>
 
 </project>
