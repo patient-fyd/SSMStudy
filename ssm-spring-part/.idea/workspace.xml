@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21da4322-6a67-4289-8835-ea6e6c5a7744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-ioc-java-05/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-java-05/src/main/java/com/fyd/config/JavaConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-java-05/src/main/java/com/fyd/ioc_01/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-java-05/src/main/java/com/fyd/ioc_01/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-java-05/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-java-05/src/main/resources/spring-01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-java-05/src/test/java/com/fyd/test/SprignIoCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc-java-05/src/main/java/com/fyd/config/JavaConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-java-05/src/main/java/com/fyd/config/JavaConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +180,7 @@
       <workItem from="1706790494493" duration="3235000" />
       <workItem from="1706793790151" duration="4685000" />
       <workItem from="1706798489318" duration="1678000" />
-      <workItem from="1706855137010" duration="9259000" />
+      <workItem from="1706855137010" duration="12603000" />
     </task>
     <servers />
   </component>

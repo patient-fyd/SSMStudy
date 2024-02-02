@@ -1,8 +1,11 @@
 package com.fyd.config;
 
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
+import com.alibaba.druid.pool.DruidDataSource;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.*;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import javax.sql.DataSource;
 
 /**
  * Author: patient.fyd@gmail.com
@@ -16,4 +19,32 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource("jdbc.properties")
 @Configuration
 public class JavaConfiguration {
+
+    @Value("${jdbc.url}")
+    private String url;
+    @Value("${jdbc.driverClassName}")
+    private String drier;
+    @Value("${jdbc.username}")
+    private String username;
+    @Value("${jdbc.password}")
+    private String password;
+
+
+    @Scope(scopeName = "prototype")
+    @Bean
+    public DruidDataSource dataSource(){
+        DruidDataSource dataSource = new DruidDataSource();
+        dataSource.setUrl(url);
+        dataSource.setDriverClassName(drier);
+        dataSource.setUsername(username);
+        dataSource.setPassword(password);
+        return dataSource;
+    }
+
+    @Bean
+    public JdbcTemplate jdbcTemplate(DataSource dataSource){
+        JdbcTemplate jdbcTemplate = new JdbcTemplate();
+        jdbcTemplate.setDataSource(dataSource);
+        return jdbcTemplate;
+    }
 }
