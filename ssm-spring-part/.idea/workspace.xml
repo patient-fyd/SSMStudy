@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21da4322-6a67-4289-8835-ea6e6c5a7744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/java/com/fyd/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/java/com/fyd/dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/java/com/fyd/dao/impl/StudentDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/java/com/fyd/service/ServiceImpl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/java/com/fyd/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/resources/spring-02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/java/com/fyd/ioc_01/CommonComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/java/com/fyd/ioc_01/XxxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/java/com/fyd/ioc_01/XxxDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/java/com/fyd/ioc_01/XxxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/resources/spring-01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/test/java/com/fyd/test/SpringIoCTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/resources/spring-01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/main/resources/spring-01.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/test/java/com/fyd/jdbc/JdbcTemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-xml-practice-02/src/test/java/com/fyd/jdbc/JdbcTemplateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +24,8 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,18 +66,6 @@
     ]
   }
 }</component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="C:\Users\33275\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
-        <option name="reportGuid" value="2cbe4408-86d4-440b-8643-bfa5fcd57214" />
-        <option name="reportName" value="ssm-spring-part/qodana/2024-02-01" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\33275\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="2cbe4408-86d4-440b-8643-bfa5fcd57214" reportId="ssm-spring-part/qodana/2024-02-01" />
@@ -90,7 +76,7 @@
       <recent name="com.fyd.ioc_03" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JdbcTemplateTest.testForIoC">
+  <component name="RunManager" selected="JUnit.SpringIoCTest.testIoC_01">
     <configuration name="JdbcTemplateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-ioc-xml-practice-02" />
       <extension name="coverage">
@@ -138,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringIoCTest.test_04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-ioc-xml-01" />
+    <configuration name="SpringIoCTest.testIoC_01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-ioc-annotaion-03" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fyd.test.*" />
@@ -148,7 +134,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.fyd.test" />
       <option name="MAIN_CLASS_NAME" value="com.fyd.test.SpringIoCTest" />
-      <option name="METHOD_NAME" value="test_04" />
+      <option name="METHOD_NAME" value="testIoC_01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringIoCTest.testIoC_01" />
         <item itemvalue="JUnit.JdbcTemplateTest.testForIoC" />
         <item itemvalue="JUnit.JdbcTemplateTest.testQueryAll" />
         <item itemvalue="JUnit.JdbcTemplateTest" />
         <item itemvalue="JUnit.SpringIoCTest.test_05" />
-        <item itemvalue="JUnit.SpringIoCTest.test_04" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +181,8 @@
       <workItem from="1706507909989" duration="8834000" />
       <workItem from="1706790494493" duration="3235000" />
       <workItem from="1706793790151" duration="4685000" />
-      <workItem from="1706798489318" duration="1003000" />
+      <workItem from="1706798489318" duration="1678000" />
+      <workItem from="1706855137010" duration="1641000" />
     </task>
     <servers />
   </component>
