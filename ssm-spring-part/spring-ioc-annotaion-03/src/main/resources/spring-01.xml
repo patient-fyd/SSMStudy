@@ -5,5 +5,17 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
     <!--1, 普通配置包扫描-->
-    <context:component-scan base-package="com.fyd.ioc_01"/>
+    <!--<context:component-scan base-package="com.fyd.ioc_01"/>-->
+
+    <!--2, 指定包， 但是排除注解-->
+    <!--<context:component-scan base-package="com.fyd.ioc_01">
+        &lt;!&ndash;排除包下的注解&ndash;&gt;
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Repository"/>
+    </context:component-scan>-->
+
+    <!--3，指定包，指定包注解  use-default-filters="false" 指定包的所有注解先不生效-->
+    <context:component-scan base-package="com.fyd.ioc_01" use-default-filters="false">
+        <!--只能扫描到的注解-->
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Repository"/>
+    </context:component-scan>
 </beans>

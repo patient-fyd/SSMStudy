@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21da4322-6a67-4289-8835-ea6e6c5a7744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/java/com/fyd/ioc_01/CommonComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/java/com/fyd/ioc_01/XxxController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/java/com/fyd/ioc_01/XxxDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/java/com/fyd/ioc_01/XxxService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/resources/spring-01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/test/java/com/fyd/test/SpringIoCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/resources/spring-01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-annotaion-03/src/main/resources/spring-01.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +175,7 @@
       <workItem from="1706790494493" duration="3235000" />
       <workItem from="1706793790151" duration="4685000" />
       <workItem from="1706798489318" duration="1678000" />
-      <workItem from="1706855137010" duration="1641000" />
+      <workItem from="1706855137010" duration="2102000" />
     </task>
     <servers />
   </component>
