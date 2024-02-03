@@ -1,5 +1,6 @@
 package com.fyd;
 
+import com.fyd.dyn.ProxyFactory;
 import com.fyd.statics.CalculatorStaticProxy;
 
 /**
@@ -13,5 +14,10 @@ public class UseAop {
         Calculator targetProxy = new CalculatorStaticProxy(target);
 
         int result = targetProxy.add(1, 2);
+
+        // jdk代理
+        ProxyFactory factory = new ProxyFactory(target);
+        Calculator proxy1 = (Calculator) factory.getProxy();
+        proxy1.add(1,1);
     }
 }
