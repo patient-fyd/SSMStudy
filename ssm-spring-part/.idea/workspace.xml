@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21da4322-6a67-4289-8835-ea6e6c5a7744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-09/src/main/java/com/fyd/dyn/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-10/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-10/src/main/java/com/fyd/advice/LogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-10/src/main/java/com/fyd/config/JavaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-10/src/main/java/com/fyd/service/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-10/src/main/java/com/fyd/service/impl/CalculatorPureImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-10/src/test/java/com/fyd/test/SpringAopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +32,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -75,7 +81,7 @@
       <recent name="com.fyd.ioc_03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseAop">
+  <component name="RunManager" selected="JUnit.SpringAopTest.test1">
     <configuration name="UseAop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fyd.UseAop" />
       <module name="spring-aop-annotation-09" />
@@ -100,6 +106,22 @@
       <option name="PACKAGE_NAME" value="com.fyd.test" />
       <option name="MAIN_CLASS_NAME" value="com.fyd.test.SprignIoCTest" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringAopTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-aop-annotation-10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fyd.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fyd.test" />
+      <option name="MAIN_CLASS_NAME" value="com.fyd.test.SpringAopTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,29 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringIoCTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-ioc-annotation-pracitice-04" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fyd.ioc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.fyd.ioc" />
-      <option name="MAIN_CLASS_NAME" value="com.fyd.ioc.SpringIoCTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringAopTest.test1" />
         <item itemvalue="Application.UseAop" />
         <item itemvalue="JUnit.SpringIoCTest.test (2)" />
         <item itemvalue="JUnit.SpringIoCTest.test (1)" />
         <item itemvalue="JUnit.SprignIoCTest.test" />
-        <item itemvalue="JUnit.SpringIoCTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +186,7 @@
       <workItem from="1706793790151" duration="4685000" />
       <workItem from="1706798489318" duration="1678000" />
       <workItem from="1706855137010" duration="19117000" />
-      <workItem from="1706923920955" duration="873000" />
+      <workItem from="1706923920955" duration="5028000" />
     </task>
     <servers />
   </component>
