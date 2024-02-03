@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21da4322-6a67-4289-8835-ea6e6c5a7744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-10/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-10/src/main/java/com/fyd/advice/LogAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-10/src/main/java/com/fyd/config/JavaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-10/src/main/java/com/fyd/service/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-10/src/main/java/com/fyd/service/impl/CalculatorPureImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-10/src/test/java/com/fyd/test/SpringAopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-10/src/main/java/com/fyd/advice/MyAdvice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +180,7 @@
       <workItem from="1706793790151" duration="4685000" />
       <workItem from="1706798489318" duration="1678000" />
       <workItem from="1706855137010" duration="19117000" />
-      <workItem from="1706923920955" duration="5028000" />
+      <workItem from="1706923920955" duration="6228000" />
     </task>
     <servers />
   </component>
