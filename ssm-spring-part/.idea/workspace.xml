@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21da4322-6a67-4289-8835-ea6e6c5a7744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-tx-annotation-11/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-tx-annotation-11/src/main/java/com/fyd/config/JavaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-tx-annotation-11/src/main/java/com/fyd/dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-tx-annotation-11/src/main/java/com/fyd/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-tx-annotation-11/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-tx-annotation-11/src/main/java/com/fyd/config/JavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-tx-annotation-11/src/main/java/com/fyd/config/JavaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-tx-annotation-11/src/main/java/com/fyd/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-tx-annotation-11/src/main/java/com/fyd/service/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +183,7 @@
       <workItem from="1706798489318" duration="1678000" />
       <workItem from="1706855137010" duration="19117000" />
       <workItem from="1706923920955" duration="8541000" />
-      <workItem from="1707016110969" duration="5093000" />
+      <workItem from="1707016110969" duration="5701000" />
     </task>
     <servers />
   </component>
