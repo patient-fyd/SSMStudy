@@ -19,11 +19,19 @@ public class StudentService {
      *   1.只读模式
      *   只读模式可以提升查询事务的效率！推荐事务只有查询代码，使用只读模式
      *   一般是在类上添加事务，这时候查询也会被添加事务，这个时候可以给查询添加只读
+     *
+     *   2.超时时间
+     *   默认：永远不超时
+     *   设置timeout 超过时间就会回滚事务和释放异常：TransactionTimedOutException
      */
+    @Transactional(timeout = 3)
     public void changeInfo(){
         studentDao.updateAgeById(88,1);
-        int i = 1/0;
-        System.out.println("-----------");
+        try {
+            Thread.sleep(4000);
+        }catch (InterruptedException e){
+            throw new RuntimeException(e);
+        }
         studentDao.updateNameById("test2",1);
     }
 
