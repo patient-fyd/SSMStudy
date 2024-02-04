@@ -5,6 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 @Service
 @Transactional
 public class StudentService {
@@ -23,16 +26,17 @@ public class StudentService {
      *   2.超时时间
      *   默认：永远不超时
      *   设置timeout 超过时间就会回滚事务和释放异常：TransactionTimedOutException
+     *
+     *   3.指定异常回滚，和指定异常不回滚
+     *      默认情况下，指定发生运行时异常事务才会回滚
+     *      我们可以指定Exception都会回滚
+     *      rollbackFor = Exception.class
      */
-    @Transactional(timeout = 3)
-    public void changeInfo(){
-        studentDao.updateAgeById(88,1);
-        try {
-            Thread.sleep(4000);
-        }catch (InterruptedException e){
-            throw new RuntimeException(e);
-        }
-        studentDao.updateNameById("test2",1);
+    @Transactional(timeout = 3,rollbackFor = Exception.class)
+    public void changeInfo() throws FileNotFoundException {
+        studentDao.updateAgeById(99,1);
+        new FileInputStream("xxx");
+        studentDao.updateNameById("test3",1);
     }
 
     @Transactional(readOnly = true)

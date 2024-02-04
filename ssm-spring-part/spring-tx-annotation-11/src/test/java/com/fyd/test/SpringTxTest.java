@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
+import java.io.FileNotFoundException;
+
 /**
  * Author: patient.fyd@gmail.com
  * Date: 2024/2/4  17:32
@@ -18,7 +20,7 @@ public class SpringTxTest {
     private StudentService studentService;
 
     @Test
-    public void test(){
+    public void test() throws FileNotFoundException {
         studentService.changeInfo();
     }
 }

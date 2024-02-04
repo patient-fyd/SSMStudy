@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="21da4322-6a67-4289-8835-ea6e6c5a7744" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/spring-tx-annotation-11/src/main/java/com/fyd/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-tx-annotation-11/src/main/java/com/fyd/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-tx-annotation-11/src/test/java/com/fyd/test/SpringTxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-tx-annotation-11/src/test/java/com/fyd/test/SpringTxTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +183,7 @@
       <workItem from="1706798489318" duration="1678000" />
       <workItem from="1706855137010" duration="19117000" />
       <workItem from="1706923920955" duration="8541000" />
-      <workItem from="1707016110969" duration="7078000" />
+      <workItem from="1707016110969" duration="8168000" />
     </task>
     <servers />
   </component>
