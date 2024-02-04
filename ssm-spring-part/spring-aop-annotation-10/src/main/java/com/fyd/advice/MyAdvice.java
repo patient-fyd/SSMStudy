@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class MyAdvice {
 
-    @Before("execution(* com.fyd..impl.*.*(..))")
+    @Before("com.fyd.pointcut.MyPointCut.mypc()")
     public void before(JoinPoint joinPoint){
         // 获取方法属于类的信息
         String simpleName = joinPoint.getTarget().getClass().getSimpleName();
@@ -23,17 +23,17 @@ public class MyAdvice {
         Object[] args = joinPoint.getArgs();
     }
 
-    @AfterReturning(value = "execution(* com.fyd..impl.*.*(..))", returning = "result")
+    @AfterReturning(value = "com.fyd.pointcut.MyPointCut.mypc()", returning = "result")
     public void afterReturning(JoinPoint joinPoint, Object result){
 
     }
 
-    @After("execution(* com.fyd..impl.*.*(..))")
+    @After("com.fyd.pointcut.MyPointCut.mypc()")
     public void after(JoinPoint joinPoint){
         System.out.println("后置通知");
     }
 
-    @AfterThrowing(value = "execution(* com.fyd..impl.*.*(..))", throwing = "throwable")
+    @AfterThrowing(value = "com.fyd.pointcut.MyPointCut.mypc()", throwing = "throwable")
     public void afterThrowing(JoinPoint joinPoint,Throwable throwable){
         System.out.println("异常通知");
     }
