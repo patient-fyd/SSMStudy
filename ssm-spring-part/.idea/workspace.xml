@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21da4322-6a67-4289-8835-ea6e6c5a7744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-tx-annotation-11/src/main/java/com/fyd/service/TopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-tx-annotation-11/src/main/java/com/fyd/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-tx-annotation-11/src/main/java/com/fyd/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-tx-annotation-11/src/test/java/com/fyd/test/SpringTxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-tx-annotation-11/src/test/java/com/fyd/test/SpringTxTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="21da4322-6a67-4289-8835-ea6e6c5a7744" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +180,7 @@
       <workItem from="1706798489318" duration="1678000" />
       <workItem from="1706855137010" duration="19117000" />
       <workItem from="1706923920955" duration="8541000" />
-      <workItem from="1707016110969" duration="11153000" />
+      <workItem from="1707016110969" duration="13214000" />
     </task>
     <servers />
   </component>
