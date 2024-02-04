@@ -2,6 +2,7 @@ package com.fyd.test;
 
 import com.fyd.config.JavaConfig;
 import com.fyd.service.StudentService;
+import com.fyd.service.TopService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
@@ -18,9 +19,17 @@ public class SpringTxTest {
 
     @Autowired
     private StudentService studentService;
+    
+    @Autowired
+    private TopService topService;
 
     @Test
     public void test() throws FileNotFoundException {
         studentService.changeInfo();
+    }
+
+    @Test
+    public void test2(){
+        topService.topService();
     }
 }

@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21da4322-6a67-4289-8835-ea6e6c5a7744" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-tx-annotation-11/src/main/java/com/fyd/service/TopService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-tx-annotation-11/src/main/java/com/fyd/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-tx-annotation-11/src/main/java/com/fyd/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-tx-annotation-11/src/test/java/com/fyd/test/SpringTxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-tx-annotation-11/src/test/java/com/fyd/test/SpringTxTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
       <recent name="com.fyd.ioc_03" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringTxTest.test">
+  <component name="RunManager" selected="JUnit.SpringTxTest.test2">
     <configuration name="UseAop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fyd.UseAop" />
       <module name="spring-aop-annotation-09" />
@@ -101,22 +103,6 @@
       <option name="PACKAGE_NAME" value="com.fyd.test" />
       <option name="MAIN_CLASS_NAME" value="com.fyd.test.SpringAopTest" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringIoCTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-ioc-java-practice-06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fyd.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.fyd.test" />
-      <option name="MAIN_CLASS_NAME" value="com.fyd.test.SpringIoCTest" />
-      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,13 +140,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringTxTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-tx-annotation-11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fyd.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fyd.test" />
+      <option name="MAIN_CLASS_NAME" value="com.fyd.test.SpringTxTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringTxTest.test2" />
         <item itemvalue="JUnit.SpringTxTest.test" />
         <item itemvalue="JUnit.SpringAopTest.test1" />
         <item itemvalue="Application.UseAop" />
         <item itemvalue="JUnit.SpringIoCTest.test (2)" />
-        <item itemvalue="JUnit.SpringIoCTest.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +184,7 @@
       <workItem from="1706798489318" duration="1678000" />
       <workItem from="1706855137010" duration="19117000" />
       <workItem from="1706923920955" duration="8541000" />
-      <workItem from="1707016110969" duration="9902000" />
+      <workItem from="1707016110969" duration="11153000" />
     </task>
     <servers />
   </component>

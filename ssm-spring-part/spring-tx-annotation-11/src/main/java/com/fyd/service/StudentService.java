@@ -4,6 +4,7 @@ import com.fyd.dao.StudentDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.io.FileInputStream;
@@ -44,6 +45,22 @@ public class StudentService {
         studentDao.updateAgeById(99,1);
         new FileInputStream("xxx");
         studentDao.updateNameById("test3",1);
+    }
+
+    /**
+     * 声明两个独立修改数据库的事务业务方法
+     * propagation = Propagation.REQUIRED 父方法有事务就加入到事务中去
+     * propagation = Propagation.REQUIRES_NEW 不管父方法有无事务，都是独立的事务
+     */
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
+    public void changeAge(){
+        studentDao.updateAgeById(999,1);
+    }
+
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
+    public void changeName(){
+        studentDao.updateNameById("test33",1);
+        int i = 1/0;
     }
 
     @Transactional(readOnly = true)
