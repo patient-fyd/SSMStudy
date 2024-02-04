@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21da4322-6a67-4289-8835-ea6e6c5a7744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-10/src/main/java/com/fyd/pointcut/MyPointCut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-annotation-10/src/main/java/com/fyd/advice/LogAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-annotation-10/src/main/java/com/fyd/advice/LogAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-annotation-10/src/main/java/com/fyd/advice/MyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-annotation-10/src/main/java/com/fyd/advice/MyAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-10/src/main/java/com/fyd/advice/TxAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-10/src/main/java/com/fyd/advice/TxAroundAdvice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,30 +37,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/code/SSMStudy/ssm-spring-part/spring-ioc-java-practice-06/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.37878788&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/code/SSMStudy/ssm-spring-part/spring-ioc-java-practice-06/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.37878788",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\33275\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="2cbe4408-86d4-440b-8643-bfa5fcd57214" reportId="ssm-spring-part/qodana/2024-02-01" />
@@ -183,7 +182,7 @@
       <workItem from="1706798489318" duration="1678000" />
       <workItem from="1706855137010" duration="19117000" />
       <workItem from="1706923920955" duration="8541000" />
-      <workItem from="1707016110969" duration="364000" />
+      <workItem from="1707016110969" duration="1796000" />
     </task>
     <servers />
   </component>
