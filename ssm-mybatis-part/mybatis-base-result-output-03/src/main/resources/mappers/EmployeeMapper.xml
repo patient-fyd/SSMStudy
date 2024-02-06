@@ -32,4 +32,13 @@
             SELECT MAX(emp_salary) FROM t_emp
         )
     </select>
+
+    <!--返回值是集合，不需要指定集合类型，只需要指定泛型即可-->
+    <select id="queryNameBySalary" resultType="java.lang.String">
+        select emp_name from t_emp where emp_salary > #{salary}
+    </select>
+
+    <select id="queryAll" resultType="com.fyd.pojo.Employee">
+        select * from t_emp;
+    </select>
 </mapper>

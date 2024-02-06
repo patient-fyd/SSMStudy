@@ -2,6 +2,7 @@ package com.fyd.mapper;
 
 import com.fyd.pojo.Employee;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -20,4 +21,9 @@ public interface EmployeeMapper {
     Employee queryById(Integer Id);
 
     Map<String,Object> selectEmpNameAndMaxSalary();
+
+    List<String> queryNameBySalary(Double salary);
+
+    List<Employee> queryAll();
+    
 }
