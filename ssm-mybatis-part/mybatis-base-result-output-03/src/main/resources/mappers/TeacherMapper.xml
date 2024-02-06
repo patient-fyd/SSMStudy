@@ -13,4 +13,12 @@
         INSERT INTO teacher (t_id,t_name)
             VALUE (#{tId},#{tName});
     </insert>
+
+    <resultMap id="tMap" type="com.fyd.pojo.Teacher">
+        <id property="tId" column="t_id"/>
+        <result property="tName" column="t_name"/>
+    </resultMap>
+    <select id="queryById" resultType="com.fyd.pojo.Teacher">
+        select t_id,t_name from teacher where t_id = #{tId};
+    </select>
 </mapper>
