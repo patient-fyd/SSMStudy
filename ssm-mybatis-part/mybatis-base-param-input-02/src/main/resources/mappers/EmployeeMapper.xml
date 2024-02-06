@@ -24,4 +24,9 @@
         insert into t_emp (emp_name, emp_salary) values (#{empName}, #{empSalary});
     </insert>
 
+    <select id="queryByNameAndSalary" resultType="com.fyd.pojo.Employee">
+        select emp_id empId, emp_name empName, emp_salary empSalary
+            from t_emp where emp_name = #{name} and emp_salary = #{salary}
+    </select>
+
 </mapper>

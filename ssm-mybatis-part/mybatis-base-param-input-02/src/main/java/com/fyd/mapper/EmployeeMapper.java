@@ -1,6 +1,7 @@
 package com.fyd.mapper;
 
 import com.fyd.pojo.Employee;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -18,4 +19,6 @@ public interface EmployeeMapper {
     List<Employee> queryBySalary(Double salary);
 
     int insertEmp(Employee employee);
+
+    List<Employee> queryByNameAndSalary(@Param("name") String name, @Param("salary") Double salary);
 }
