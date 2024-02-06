@@ -11,4 +11,12 @@
     <select id="queryById" resultType="com.fyd.pojo.Employee">
         select emp_id empId, emp_name empName, emp_salary empSalary from t_emp where emp_id = #{id}
     </select>
+
+    <delete id="deleteById">
+        delete from t_emp where emp_id = #{id}
+    </delete>
+
+    <select id="queryBySalary" resultType="com.fyd.pojo.Employee">
+        select emp_id empId, emp_name empName, emp_salary empSalary from t_emp where emp_salary = #{salary}
+    </select>
 </mapper>
