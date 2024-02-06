@@ -17,4 +17,8 @@
         select emp_salary from t_emp where emp_id = #{id}
     </select>
 
+    <select id="queryById" resultType="Employee">
+        select * from t_emp where emp_id = #{id}
+    </select>
+
 </mapper>
