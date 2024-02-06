@@ -41,4 +41,11 @@
     <select id="queryAll" resultType="com.fyd.pojo.Employee">
         select * from t_emp;
     </select>
+
+    <!-- useGeneratedKeys属性字面意思就是“使用生成的主键” -->
+    <!-- keyProperty属性可以指定主键在实体类对象中对应的属性名，Mybatis会将拿到的主键值存入这个属性 -->
+    <insert id="insertEmp" useGeneratedKeys="true" keyColumn="emp_id" keyProperty="empId">
+        insert into t_emp (emp_name,emp_salary)
+            value (#{empName},#{empSalary});
+    </insert>
 </mapper>
