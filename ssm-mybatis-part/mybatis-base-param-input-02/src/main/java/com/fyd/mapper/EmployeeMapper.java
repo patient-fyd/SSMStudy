@@ -16,4 +16,6 @@ public interface EmployeeMapper {
     int deleteById(Integer id);
 
     List<Employee> queryBySalary(Double salary);
+
+    int insertEmp(Employee employee);
 }
