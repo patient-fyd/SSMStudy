@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.fyd.mapper.EmployeeMapper">
+
+    <delete id="deleteById">
+        delete from t_emp where emp_id = #{id}
+    </delete>
+
+    <select id="queryNameById" resultType="java.lang.String">
+        select emp_name from t_emp where emp_id = #{id}
+    </select>
+
+    <select id="querySalaryById" resultType="java.lang.Double">
+        select emp_salary from t_emp where emp_id = #{id}
+    </select>
+
+</mapper>
